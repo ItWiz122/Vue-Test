@@ -20,6 +20,6 @@ describe('Login', () => {
       .evaluate(() => document.querySelector('#area_error_msg').innerHTML).end()
     await page.end()
     console.log('content:>>' + content)
-    expect(content).toBe('请输入用户名')
+    expect(content).toBe('please enter user name')
   })
 })

@@ -17,6 +17,6 @@ describe('hello world click event', () => {
       clickCb: spy
     })
     wrapper.find('#testBtn').trigger('click')
-    expect(spy.calledWith('这是测试按钮')).toBe(true)
+    expect(spy.calledWith('This is the test button')).toBe(true)
   })
 })
